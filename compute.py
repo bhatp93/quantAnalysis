@@ -17,3 +17,4 @@ def handle_json():
     #print(data.get('age'))
     renkoMacd.calculate(tickers)
     return data
+    
