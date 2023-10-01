@@ -13,6 +13,7 @@ def handle_json():
     tickers = data.get('stocks')
     for ticker in tickers:
         print(ticker)
+    print('ticker')
     #print(data.get('name'))
     #print(data.get('age'))
     renkoMacd.calculate(tickers)
